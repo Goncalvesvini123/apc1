@@ -3,7 +3,7 @@
  int main() {
   printf("----------------------------------\n");
   printf("        N O T A   L E G A L       \n");
-  printf("----------------------------------\n");
+  prntf("----------------------------------\n");
   printf("ITEM              QTD      VALOR  \n");
   printf("%-16s %3i %11.2f\n" , "Banana", 1, 1.50);
   printf("%-16s %3i %11.2f\n" , "Laranja", 5, 2.00);
