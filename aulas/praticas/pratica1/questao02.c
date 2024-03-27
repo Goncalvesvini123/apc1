@@ -4,13 +4,18 @@
 
 #include <stdio.h>
 
-int main() { setvbuf(
+int main() { 
 
-  int base = 2;
-  int altura = 3;
+  int base;
+  int altura; 
+
+  printf("Entre com a base: ");
+  int deu_certo = scanf("%i", &base);
+
+  printf("Entre com a altura; ");
+  deu_certo = scanf("%i", &altura);
 
   int area = base * altura / 2;
-
   printf("A área do triângulo é: %i\n", area);
   
   return 0;

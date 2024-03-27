@@ -9,8 +9,9 @@ int main() {
   int comprimento;
   int area;
   int hectares;
+  int preco;
 
-  printf("Digite a largura do terreno: ");
+  printf("Digite a largura do terreno:");
   int deu_certo = scanf("%i", &largura);
 
   printf("|Digite o comprimento do terreno:");
@@ -21,6 +22,10 @@ int main() {
   hectares = area / 10000;
 
   printf("Área em hectares do terreno: %i\n", hectares);
+
+  preco = hectares * 1500000;
+
+  printf("O preço do terreno é: %i\n", preco);
 
   return 0;
 }
